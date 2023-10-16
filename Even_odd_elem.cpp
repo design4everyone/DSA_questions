@@ -1,4 +1,4 @@
-/*roblem Description
+/*Problem Description
 You are given T(number of test cases) integer arrays. For each array A, you have to find the value of absolute difference between the counts of even and odd elements in the array.
 
 
@@ -69,15 +69,16 @@ Explanation 2:
  |Number of even elements - Number of odd elements| = |1 - 0| = |1| = 1  
 
 */
-
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main()
+{
     // YOUR CODE GOES HERE
     // Please take input and print output to standard input/output (stdin/stdout)
     // E.g. 'cin' for input & 'cout' for output
     int T;
+    cout<<"enter t :";
     cin>>T;
     while(T>0)
     {
